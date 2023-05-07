@@ -1,0 +1,63 @@
+html {
+    height: 100%;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 1.2em;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+#LOGO {
+    background-color: #4CAF50;
+    color: black;
+    padding: 20px;
+}
+
+#NAVBAR {
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+#NAVBAR ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#NAVBAR li {
+    float: left;
+}
+
+#NAVBAR a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#NAVBAR a:hover {
+    background-color: #111;
+}
+
+#SERVICES {
+    text-align: center;
+    background-color: gold;
+    flex-grow: 1;
+    font-size: 25px;
+}
+
+#SERVICES p {
+    color: #333;
+    line-height: 1.5;
+}
+
+#SERVICES p strong {
+    color: blue;
+}
