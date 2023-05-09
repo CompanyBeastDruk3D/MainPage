@@ -57,3 +57,12 @@ body {
 #REVIEWS ul {
     list-style-type: none;
 }
+
+#FORM {
+    display: flex;
+    padding: 20px;
+    justify-self: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: gold;
+}
