@@ -62,3 +62,10 @@ body {
 #SERVICES p strong {
     color: blue;
 }
+
+#Fotterr {
+    background-color: #4CAF50;
+    color: black;
+    padding: 20px; 
+    text-align: center;
+}
