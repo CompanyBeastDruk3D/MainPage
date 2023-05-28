@@ -1,75 +1,167 @@
-html {
-    height: 100%;
-}
-body {
-    font-family: Arial, sans-serif;
+/* reset default browser styles */
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-size: 1.2em;
-    min-height: 100vh;
-}
-
-#LOGO {
-    background-color: #4CAF50;
-    color: black;
+  }
+  
+  /* set body background color */
+  body {
+    background-color: #f2f2f2;
+  }
+  
+  /* style header */
+  .LOGO {
+    background-color: #555;
+    color: white;
     padding: 20px;
-    text-align: center;
-}
-
-#NAVBAR {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .LOGO h1 {
+    margin: 0;
+    font-size: 32px;
+  }
+  
+  /* style navigation bar */
+  .NAVBAR {
+    background-color: #444;
     overflow: hidden;
-    background-color: #333;
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-}
-
-#NAVBAR ul {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  .NAVBAR ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-}
-
-#NAVBAR li {
+  }
+  
+  .NAVBAR li {
     float: left;
-}
-
-#NAVBAR a {
+  }
+  
+  .NAVBAR li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-}
-
-#NAVBAR a:hover {
-    background-color: #111;
-}
-
-#REVIEWS {
+  }
+  
+  .NAVBAR li a:hover {
+    background-color: #333;
+  }
+  
+  /* style main content */
+  .Page {
+    max-width: 1000px;
+    margin: 0 auto;
     padding: 20px;
-    text-align: center;
-    min-height: 100vh;
-    background-color: gold;
-    font-size: 35px;
-}
-
-#REVIEWS ul {
-    list-style-type: none;
-}
-
-#FORM {
+  }
+  
+  .CompanyInfo {
+    background-color: #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
     display: flex;
-    padding: 20px;
+    flex-wrap: wrap;
+    gap: 20px;
     justify-self: center;
-    justify-content: center;
-    min-height: 100vh;
-    background-color: gold;
-}
-
-#Fotterr {
-    background-color: #4CAF50;
-    color: black;
-    padding: 20px; 
     text-align: center;
-}
+    flex-direction: column;
+  }
+  
+  .CompanyInfo h2 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    flex-basis: 100%;
+  }
+  
+  .CompanyInfo p {
+    font-size: 35px;
+    margin-bottom: 10px;
+    flex-basis: 100%;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 15px;
+  }
+  
+  .image-item img {
+    object-fit: cover;
+    border-radius: 10px;
+    padding: 5px;
+  }
+  
+  .text-container {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .info {
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+  
+  /* style footer */
+  .Footer {
+    background-color: #555;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  
+  .Footer h1 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  #Item{
+    display: flex;
+    padding: 5px;
+  }
+
+  .XCverlay{
+    width: 600px;
+    padding: 5px;
+    text-align: center;
+    object-fit: cover;
+    background-color: #ddd;
+    border-radius: 10px;
+  }
+
+  #FORM{
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+  }
+
+  .alink{
+    font-size: 55px;
+    text-decoration: none;
+  }
