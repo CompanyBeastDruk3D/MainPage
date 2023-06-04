@@ -15,8 +15,6 @@
     background-color: #555;
     color: white;
     padding: 20px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
   }
   
   .LOGO h1 {
@@ -28,8 +26,6 @@
   .NAVBAR {
     background-color: #444;
     overflow: hidden;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
   }
   
   .NAVBAR ul {
@@ -124,14 +120,12 @@
     margin-bottom: 0;
   }
   
-  /* style footer */
-  .Footer {
+   /* style footer */
+   .Footer {
     background-color: #555;
     color: white;
     text-align: center;
     padding: 20px;
-    margin-top: 20px;
-    border-radius: 10px;
   }
   
   .Footer h1 {
