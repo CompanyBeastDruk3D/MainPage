@@ -1,150 +1,168 @@
 /* reset default browser styles */
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* set body background color */
-  body {
-    background-color: #f2f2f2;
-  }
-  
-  /* style header */
-  .LOGO {
-    background-color: #555;
-    color: white;
-    padding: 20px;
-  }
-  
-  .LOGO h1 {
-    margin: 0;
-    font-size: 32px;
-  }
-  
-  /* style navigation bar */
-  .NAVBAR {
-    background-color: #444;
-    overflow: hidden;
-  }
-  
-  .NAVBAR ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .NAVBAR li {
-    float: left;
-  }
-  
-  .NAVBAR li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  .NAVBAR li a:hover {
-    background-color: #333;
-  }
-  
-  /* style main content */
-  .Page {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-    .CompanyInfo {
-    background-color: #ddd;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    height: 500px;
-  }
-  
-  .CompanyInfo h2 {
-    font-size: 50px;
-    margin-bottom: 10px;
-    flex-basis: 100%;
-  }
-  
-  .CompanyInfo p {
-    font-size: 35px;
-    margin-bottom: 10px;
-    flex-basis: 100%;
-  }
-  
-  .gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-  }
-  
-  .column {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
-    padding: 15px;
-  }
-  
-  .image-item img {
-    object-fit: cover;
-    border-radius: 10px;
-    padding: 5px;
-  }
-  
-  .text-container {
-    width: 400px;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 20px;
-    border-radius: 10px;
-  }
-  
-  .title {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  
-  .info {
-    font-size: 18px;
-    margin-bottom: 0;
-  }
-  
-   /* style footer */
-   .Footer {
-    background-color: #555;
-    color: white;
-    text-align: center;
-    padding: 20px;
-  }
-  
-  .Footer h1 {
-    margin: 0;
-    font-size: 18px;
-  }
-  
-  #Item{
-    display: flex;
-    padding: 5px;
-  }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+}
 
-  .XCverlay{
-    width: 600px;
-    padding: 5px;
-    text-align: center;
-    object-fit: cover;
-    background-color: #ddd;
-    border-radius: 10px;
-  }
+/* set body background color */
+body {
+  background-color: #f2f2f2;
+}
 
-  
+/* style header */
+.LOGO {
+  background-color: rgb(80, 80, 80);
+  color: #ffffff;
+  padding: 20px;
+}
+
+.LOGO h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+/* style navigation bar */
+.NAVBAR {
+  background-color: rgb(25, 25, 25);
+  color: #ffffff;
+  overflow: hidden;
+}
+
+.NAVBAR ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.NAVBAR li {
+  float: left;
+}
+
+.NAVBAR li a {
+  display: block;
+  background-color: rgb(25, 25, 25);
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.NAVBAR li a:hover {
+  background-color: #333;
+}
+
+/* style main content */
+.Page {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.CompanyInfo {
+  background-color: rgb(25, 25, 25);
+  color: #ffffff;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 100%;
+  min-height: 100vh;
+}
+
+.CompanyInfo h2 {
+  font-size: 50px;
+  margin-bottom: 10px;
+  flex-basis: 100%;
+}
+
+.CompanyInfo p {
+  font-size: 35px;
+  margin-bottom: 10px;
+  flex-basis: 100%;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.column {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+.image-item img {
+  object-fit: cover;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.text-container {
+  width: 400px;
+  background-color: rgb(25, 25, 25);
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.info {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+/* style footer */
+.Footer {
+  background-color: rgb(25, 25, 25);
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  font-size: 45px;
+}
+
+.Footer h1 {
+  margin: 0;
+  font-size: 18px;
+}
+
+#Item {
+  display: flex;
+  padding: 5px;
+}
+
+.XCverlay {
+  width: 600px;
+  padding: 5px;
+  text-align: center;
+  object-fit: cover;
+  background-color: rgb(25, 25, 25);
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+
+.CompanyInfoAbout {
+  margin: 5%px;
+  padding: 5%;
+}
+
+.about {
+  background-color: rgb(25, 25, 25);
+  color: #ffffff;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 1%;
+}

@@ -1,21 +1,22 @@
 /* reset default browser styles */
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+}
   
   /* set body background color */
   body {
     background-color: #f2f2f2;
   }
   
-  /* style header */
-  .LOGO {
-    background-color: #555;
-    color: white;
-    padding: 20px;
-  }
+/* style header */
+.LOGO {
+  background-color: rgb(80, 80, 80);
+  color: #ffffff;
+  padding: 20px;
+}
   
   .LOGO h1 {
     margin: 0;
@@ -40,7 +41,8 @@
   
   .NAVBAR li a {
     display: block;
-    color: white;
+    background-color: rgb(25, 25, 25);
+    color: #ffffff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -55,10 +57,12 @@
     max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
+    min-width: 100%;
   }
   
   .CompanyInfo {
-    background-color: #ddd;
+    background-color: rgb(25, 25, 25);
+    color: #ffffff;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
@@ -103,7 +107,8 @@
   
   .text-container {
     width: 400px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgb(25, 25, 25);
+    color: #ffffff;
     padding: 20px;
     border-radius: 10px;
   }
@@ -119,13 +124,14 @@
     margin-bottom: 0;
   }
   
-  /* style footer */
-  .Footer {
-    background-color: #555;
-    color: white;
-    text-align: center;
-    padding: 20px;
-  }
+/* style footer */
+.Footer {
+  background-color: rgb(25, 25, 25);
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  font-size: 45px;
+}
   
   .Footer h1 {
     margin: 0;
@@ -142,6 +148,13 @@
     padding: 5px;
     text-align: center;
     object-fit: cover;
-    background-color: #ddd;
+    background-color: rgb(25, 25, 25);
+    color: #ffffff;
     border-radius: 10px;
+  }
+
+  .OrderLinkText{
+    color: red;
+    font-size: 45px;
+    text-decoration: none;
   }

@@ -1,21 +1,22 @@
 /* reset default browser styles */
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+}
   
   /* set body background color */
   body {
     background-color: #f2f2f2;
   }
   
-  /* style header */
-  .LOGO {
-    background-color: #555;
-    color: white;
-    padding: 20px;
-  }
+/* style header */
+.LOGO {
+  background-color: rgb(80, 80, 80);
+  color: #ffffff;
+  padding: 20px;
+}
   
   .LOGO h1 {
     margin: 0;
@@ -68,6 +69,8 @@
     justify-self: center;
     text-align: center;
     flex-direction: column;
+    min-width: 100%;
+    min-height: 100vh;
   }
   
   .CompanyInfo h2 {
@@ -122,13 +125,14 @@
     margin-bottom: 0;
   }
   
-  /* style footer */
-  .Footer {
-    background-color: #555;
-    color: white;
-    text-align: center;
-    padding: 20px;
-  }
+/* style footer */
+.Footer {
+  background-color: rgb(25, 25, 25);
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  font-size: 45px;
+}
   
   .Footer h1 {
     margin: 0;
